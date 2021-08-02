@@ -1,0 +1,116 @@
+~$ mn
+bash: mn: command not found
+~$ man
+What manual page do you want?
+For example, try 'man man'.
+~$ pwd
+/home/user
+~$ ls
+2021-08-02-141446.term  OSlinuxday1.term
+~$ cal
+    August 2021       
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30 31              
+                      
+~$ echo justin
+justin
+~$ date cal echo date
+date: extra operand ‘echo’
+Try 'date --help' for more information.
+~$ tty
+/dev/pts/1
+~$ whoami
+user
+~$ whatis ls
+ls (1)               - list directory contents
+~$ whatis cal
+cal (1)              - displays a calendar and the date of Easter
+~$ whatis man ls
+man (1)              - an interface to the system reference manuals
+man (7)              - macros to format man pages
+ls (1)               - list directory contents
+~$ cat GTAV
+cat: GTAV: No such file or directory
+~$ cat file1
+cat: file1: No such file or directory
+~$ cat OSlinuxday1
+cat: OSlinuxday1: No such file or directory
+~$ mkdir vit
+~$ mkdir vit
+mkdir: cannot create directory ‘vit’: File exists
+~$ ls vit
+~$ ls
+2021-08-02-141446.term  OSlinuxday1.term  vit
+~$ cd vit
+~/vit$ touch india
+~/vit$ ls
+india
+~/vit$ cat > india
+Operating system and principles
+India is a great country
+make in india
+bruhhh
+hello
+6969
+^Z
+[1]+  Stopped                 cat > india
+~/vit$ cat india
+Operating system and principles
+India is a great country
+make in india
+bruhhh
+hello
+6969
+~/vit$ touch vellore
+~/vit$ cp india vellore
+~/vit$ cat vellore
+Operating system and principles
+India is a great country
+make in india
+bruhhh
+hello
+6969
+~/vit$ man cp
+~/vit$ cp -i india vellore1
+~/vit$ cp -i vellore vellore2
+~/vit$ cat vellore2
+Operating system and principles
+India is a great country
+make in india
+bruhhh
+hello
+6969
+~/vit$ cp -i india.txt vellore3
+cp: cannot stat 'india.txt': No such file or directory
+~$ cd vit
+~/vit$ touch vellore4
+~/vit$ cat> vellore4
+77141714
+69696969 
+hfiuwg
+^Z
+[1]+  Stopped                 cat > vellore4
+~/vit$ mkdir ias
+~/vit$ cd ias
+~/vit/ias$ ls
+~/vit/ias$ wc india
+wc: india: No such file or directory
+~/vit/ias$ cd vit
+bash: cd: vit: No such file or directory
+~/vit/ias$ rmd ias
+bash: rmd: command not found
+~/vit/ias$ rmdir ias
+rmdir: failed to remove 'ias': No such file or directory
+~/vit/ias$ cd
+~$ cd vit
+~/vit$ wc india
+ 6 15 89 india
+~/vit$ wc-L india
+bash: wc-L: command not found
+~/vit$ wc -l india
+6 india
+~/vit$ 
